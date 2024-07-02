@@ -1,0 +1,2 @@
+jms-broker-local-broker-uri: broker:(tcp://localhost:61617)?persistent=false
+server.port: 9997

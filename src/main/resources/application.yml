@@ -1,0 +1,13 @@
+hawtio.authenticationEnabled: false
+spring.application.name: springboot-jms-client
+management:
+  endpoint:
+    hawtio:
+      enable: true
+    jolokia:
+      enable: true
+  endpoints:
+    web:
+      exposure:
+        include: actuator, info, health, keepalive, metrics, hawtio, jolokia
+server.port: 9999
