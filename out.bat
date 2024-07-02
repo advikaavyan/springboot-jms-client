@@ -1,0 +1,1 @@
+java -jar .\target\springboot-jms-client-1.0.1-SNAPSHOT.jar --spring.profiles.active=out
